@@ -98,7 +98,7 @@ class RegistroController {
         $registro->paquete = Paquete::find($registro->paquete_id);
 
         $router->render('registro/boleto', [
-            'titulo' => 'Asistencia a DevWebCamp',
+            'titulo' => 'Asistencia a Nutra',
             'registro' => $registro
         ]);
     }

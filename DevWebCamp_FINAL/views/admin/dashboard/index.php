@@ -20,22 +20,22 @@
         </div>
 
         <div class="bloque">
-            <h3 class="bloque__heading">Eventos Con Menos Lugares Disponibles</h3>
+            <h3 class="bloque__heading">Citas Con Menos Tiempo Disponible</h3>
             <?php foreach($menos_disponibles as $evento) { ?>
                 <div class="bloque__contenido">
                     <p class="bloque__texto">
-                        <?php echo $evento->nombre . " - " . $evento->disponibles . ' Disponibles'; ?>
+                        <?php echo $evento->nombre . " - " . $evento->disponibles . ' Minutos'; ?>
                     </p>
                 </div>
             <?php } ?>
         </div>
 
         <div class="bloque">
-            <h3 class="bloque__heading">Eventos Con Más Lugares Disponibles</h3>
+            <h3 class="bloque__heading">Citas Con Más Tiempo Disponibles</h3>
             <?php foreach($mas_disponibles as $evento) { ?>
                 <div class="bloque__contenido">
                     <p class="bloque__texto">
-                        <?php echo $evento->nombre . " - " . $evento->disponibles . ' Disponibles'; ?>
+                        <?php echo $evento->nombre . " - " . $evento->disponibles . ' Minutos'; ?>
                     </p>
                 </div>
             <?php } ?>

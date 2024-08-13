@@ -10,14 +10,14 @@
         <a href="/admin/ponentes" class="dashboard__enlace <?php echo pagina_actual('/ponentes') ? 'dashboard__enlace--actual' : ''; ?> ">
             <i class="fa-solid fa-microphone dashboard__icono"></i>
             <span class="dashboard__menu-texto">
-                Ponentes
+                Nutricionistas
             </span>    
         </a>
 
         <a href="/admin/eventos" class="dashboard__enlace <?php echo pagina_actual('/eventos') ? 'dashboard__enlace--actual' : ''; ?> ">
             <i class="fa-solid fa-calendar dashboard__icono"></i>
             <span class="dashboard__menu-texto">
-                Eventos
+                Citas
             </span>    
         </a>
 

@@ -77,7 +77,7 @@ $router->get('/boleto', [RegistroController::class, 'boleto']);
 
 // Área Pública
 $router->get('/', [PaginasController::class, 'index']);
-$router->get('/devwebcamp', [PaginasController::class, 'evento']);
+$router->get('/nutra', [PaginasController::class, 'evento']);
 $router->get('/paquetes', [PaginasController::class, 'paquetes']);
 $router->get('/workshops-conferencias', [PaginasController::class, 'conferencias']);
 $router->get('/404', [PaginasController::class, 'error']);

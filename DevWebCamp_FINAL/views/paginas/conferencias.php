@@ -1,9 +1,9 @@
 <main class="agenda">
-    <h2 class="agenda__heading">Workshops & Conferencias</h2>
-    <p class="agenda__descripcion">Talleres y Conferencias dictados por expertos en desarrollo web</p>
+    <h2 class="agenda__heading">Presencial y Online</h2>
+    <p class="agenda__descripcion">Todas las citas impartidas por nuestros nutricionistas</p>
 
     <div class="eventos">
-        <h3 class="eventos__heading">&lt;Conferencias /></h3>
+        <h3 class="eventos__heading">&lt;Online /></h3>
         <p class="eventos__fecha">Viernes 5 de Octubre</p>
 
         <div class="eventos__listado slider swiper">
@@ -30,7 +30,7 @@
     </div>
 
     <div class="eventos eventos--workshops">
-        <h3 class="eventos__heading">&lt;Workshops /></h3>
+        <h3 class="eventos__heading">&lt;Presencial /></h3>
         <p class="eventos__fecha">Viernes 5 de Octubre</p>
 
         <div class="eventos__listado slider swiper">

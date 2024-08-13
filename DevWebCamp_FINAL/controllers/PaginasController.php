@@ -57,15 +57,15 @@ class PaginasController {
     }
     public static function evento(Router $router) {
 
-        $router->render('paginas/devwebcamp', [
-            'titulo' => 'Sobre DevWebCamp'
+        $router->render('paginas/nutra', [
+            'titulo' => 'Sobre Nutra'
         ]);
     }
     
     public static function paquetes(Router $router) {
 
         $router->render('paginas/paquetes', [
-            'titulo' => 'Paquetes DevWebCamp'
+            'titulo' => 'Paquetes Nutra'
         ]);
     }
 
@@ -99,7 +99,7 @@ class PaginasController {
 
 
         $router->render('paginas/conferencias', [
-            'titulo' => 'Conferencias & Workshops',
+            'titulo' => 'Online y Presencial',
             'eventos' => $eventos_formateados
         ]);
     }

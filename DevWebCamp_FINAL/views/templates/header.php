@@ -16,7 +16,7 @@
         <div class="header__contenido">
             <a href="/">
                 <h1 class="header__logo">
-                    &#60;DevWebCamp />
+                    &#60;Nutra />
                 </h1>
             </a>
 
@@ -31,13 +31,13 @@
     <div class="barra__contenido">
         <a href="/">
             <h2 class="barra__logo">
-                &#60;DevWebCamp />
+                &#60;Nutra />
             </h2>
         </a>
         <nav class="navegacion">
-            <a href="/devwebcamp" class="navegacion__enlace <?php echo pagina_actual('/devwebcamp') ? 'navegacion__enlace--actual' : ''; ?>">Evento</a>
+            <a href="/nutra" class="navegacion__enlace <?php echo pagina_actual('/nutra') ? 'navegacion__enlace--actual' : ''; ?>">Sobre Nosotros</a>
             <a href="/paquetes" class="navegacion__enlace <?php echo pagina_actual('/paquetes') ? 'navegacion__enlace--actual' : ''; ?>">Paquetes</a>
-            <a href="/workshops-conferencias" class="navegacion__enlace <?php echo pagina_actual('/workshops-conferencias') ? 'navegacion__enlace--actual' : ''; ?>">Workshops / Conferencias</a>
+            <a href="/workshops-conferencias" class="navegacion__enlace <?php echo pagina_actual('/workshops-conferencias') ? 'navegacion__enlace--actual' : ''; ?>">Citas Registradas</a>
             <a href="/registro" class="navegacion__enlace <?php echo pagina_actual('/registro') ? 'navegacion__enlace--actual' : ''; ?>">Comprar Pase</a>
         </nav>
     </div>

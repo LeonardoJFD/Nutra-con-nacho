@@ -3,7 +3,7 @@
 <div class="dashboard__contenedor-boton">
     <a class="dashboard__boton" href="/admin/eventos/crear">
         <i class="fa-solid fa-circle-plus"></i>
-        Añadir Evento
+        Añadir Cita
     </a>
 </div>
 
@@ -13,10 +13,10 @@
         <table class="table">
             <thead class="table__thead">
                 <tr>
-                    <th scope="col" class="table__th">Evento</th>
+                    <th scope="col" class="table__th">Cita</th>
                     <th scope="col" class="table__th">Categoría</th>
                     <th scope="col" class="table__th">Día y Hora</th>
-                    <th scope="col" class="table__th">Ponente</th>
+                    <th scope="col" class="table__th">Nutricionista</th>
                     <th scope="col" class="table__th"></th>
                 </tr>
             </thead>

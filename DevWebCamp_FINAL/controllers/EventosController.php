@@ -38,7 +38,7 @@ class EventosController {
         }
 
         $router->render('admin/eventos/index', [
-            'titulo' => 'Conferencias y Workshops',
+            'titulo' => 'Citas',
             'eventos' => $eventos,
             'paginacion' => $paginacion->paginacion()
         ]);
@@ -78,7 +78,7 @@ class EventosController {
         }
 
         $router->render('admin/eventos/crear', [
-            'titulo' => 'Registrar Evento',
+            'titulo' => 'Registrar Cita',
             'alertas' => $alertas,
             'categorias' => $categorias,
             'dias' => $dias,
@@ -134,7 +134,7 @@ class EventosController {
         }
 
         $router->render('admin/eventos/editar', [
-            'titulo' => 'Editar Evento',
+            'titulo' => 'Editar Cita',
             'alertas' => $alertas,
             'categorias' => $categorias,
             'dias' => $dias,

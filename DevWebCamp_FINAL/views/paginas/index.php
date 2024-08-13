@@ -6,29 +6,29 @@
     <div class="resumen__grid">
         <div <?php aos_animacion(); ?> class="resumen__bloque">
             <p class="resumen__texto resumen__texto--numero"><?php echo $ponentes_total; ?></p>
-            <p class="resumen__texto">Speakers</p>
+            <p class="resumen__texto">Nutricionistas</p>
         </div>
 
         <div <?php aos_animacion(); ?> class="resumen__bloque">
             <p class="resumen__texto resumen__texto--numero"><?php echo $conferencias_total; ?></p>
-            <p class="resumen__texto">Conferencias</p>
+            <p class="resumen__texto">Online</p>
         </div>
 
         <div <?php aos_animacion(); ?> class="resumen__bloque">
             <p class="resumen__texto resumen__texto--numero"><?php echo $workshops_total; ?></p>
-            <p class="resumen__texto">Workshops</p>
+            <p class="resumen__texto">Presencial</p>
         </div>
 
         <div <?php aos_animacion(); ?> class="resumen__bloque">
             <p class="resumen__texto resumen__texto--numero">500</p>
-            <p class="resumen__texto">Asistentes</p>
+            <p class="resumen__texto">Tiempo</p>
         </div>
     </div>
 </section>
 
 <section class="speakers">
-    <h2 class="speakers__heading">Speakers</h2>
-    <p class="speakers__descripcion">Conoce a nuestros expertos de DevWebCamp</p>
+    <h2 class="speakers__heading">Nutricionistas</h2>
+    <p class="speakers__descripcion">Conoce a nuestros expertos de Nutra</p>
 
     <div class="speakers__grid">
         <?php foreach($ponentes as $ponente) { ?>
@@ -83,11 +83,6 @@
                             </a> 
                         <?php } ?> 
 
-                        <?php if(!empty($redes->github)) { ?>
-                            <a class="speaker-sociales__enlace" rel="noopener noreferrer" target="_blank" href="<?php echo $redes->github; ?>">
-                                <span class="speaker-sociales__ocultar">Github</span>
-                            </a>
-                        <?php } ?> 
                     </nav>
 
                     <ul class="speaker__listado-skills">
@@ -108,23 +103,23 @@
 
 <section class="boletos">
     <h2 class="boletos__heading">Boletos & Precios</h2>
-    <p class="boletos__descripcion">Precios para DevWebCamp</p>
+    <p class="boletos__descripcion">Precios para Nutra</p>
 
     <div class="boletos__grid">
         <div <?php aos_animacion(); ?> class="boleto boleto--presencial">
-            <h4 class="boleto__logo">&#60;DevWebCamp /></h4>
+            <h4 class="boleto__logo">&#60;Nutra /></h4>
             <p class="boleto__plan">Presencial</p>
-            <p class="boleto__precio">$199</p>
+            <p class="boleto__precio">$0</p>
         </div>
 
         <div <?php aos_animacion(); ?> class="boleto boleto--virtual">
-            <h4 class="boleto__logo">&#60;DevWebCamp /></h4>
+            <h4 class="boleto__logo">&#60;Nutra /></h4>
             <p class="boleto__plan">Virtual</p>
-            <p class="boleto__precio">$49</p>
+            <p class="boleto__precio">$0</p>
         </div>
 
         <div <?php aos_animacion(); ?> class="boleto boleto--gratis">
-            <h4 class="boleto__logo">&#60;DevWebCamp /></h4>
+            <h4 class="boleto__logo">&#60;Nutra /></h4>
             <p class="boleto__plan">Gratis</p>
             <p class="boleto__precio">Gratis - $0</p>
         </div>

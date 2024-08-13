@@ -12,8 +12,8 @@ if(document.querySelector('#mapa')) {
 
     L.marker([lat, lng]).addTo(map)
         .bindPopup(`
-            <h2 class="mapa__heading">DevWebCamp</h2>
-            <p class="mapa__texto">Centro de Convenciones de Los Ángeles</p>
+            <h2 class="mapa__heading">Nutra - Centro</h2>
+            <p class="mapa__texto">Centro de Nutra</p>
         `)
         .openPopup();
 }

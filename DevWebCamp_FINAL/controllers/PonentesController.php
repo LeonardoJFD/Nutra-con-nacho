@@ -33,7 +33,7 @@ class PonentesController {
 
 
         $router->render('admin/ponentes/index', [
-            'titulo' => 'Ponentes / Conferencistas',
+            'titulo' => 'Nutricionistas',
             'ponentes' => $ponentes,
             'paginacion' => $paginacion->paginacion()
         ]);
@@ -93,7 +93,7 @@ class PonentesController {
         }
 
         $router->render('admin/ponentes/crear', [
-            'titulo' => 'Registrar Ponente',
+            'titulo' => 'Registrar Nutricionista',
             'alertas' => $alertas,
             'ponente' => $ponente,
             'redes' => json_decode($ponente->redes)
@@ -167,7 +167,7 @@ class PonentesController {
         }
 
         $router->render('admin/ponentes/editar', [
-            'titulo' => 'Actualizar Ponente',
+            'titulo' => 'Actualizar Nutricionista',
             'alertas' => $alertas,
             'ponente' => $ponente,
             'redes' => json_decode($ponente->redes)

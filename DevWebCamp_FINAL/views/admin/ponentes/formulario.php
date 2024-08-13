@@ -167,18 +167,6 @@
         </div>
     </div>
 
-    <div class="formulario__campo">
-        <div class="formulario__contenedor-icono">
-            <div class="formulario__icono">
-                <i class="fa-brands fa-github"></i>
-            </div>
-            <input
-                type="text"
-                class="formulario__input--sociales"
-                name="redes[github]"
-                placeholder="GitHub"
-                value="<?php echo $redes->github ?? ''; ?>"
-            >
         </div>
     </div>
 

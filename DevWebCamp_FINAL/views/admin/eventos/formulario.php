@@ -2,13 +2,13 @@
     <legend class="formulario__legend">Información Evento</legend>
 
     <div class="formulario__campo">
-        <label for="nombre" class="formulario__label">Nombre Evento</label>
+        <label for="nombre" class="formulario__label">Nombre Cita</label>
         <input
             type="text"
             class="formulario__input"
             id="nombre"
             name="nombre"
-            placeholder="Nombre Evento"
+            placeholder="Nombre Cita"
             value="<?php echo $evento->nombre; ?>"
         >
     </div>
@@ -19,13 +19,13 @@
             class="formulario__input"
             id="descripcion"
             name="descripcion"
-            placeholder="Descripción Evento"
+            placeholder="Descripción de la Cita"
             rows="8"
         ><?php echo $evento->descripcion; ?></textarea>
     </div>
 
     <div class="formulario__campo">
-        <label for="categoria" class="formulario__label">Categoría o Tipo de Evento</label>
+        <label for="categoria" class="formulario__label">Tipo de Cita</label>
         <select
             class="formulario__select"
             id="categoria"
@@ -77,7 +77,7 @@
     <legend class="formulario__legend">Información Extra</legend>
 
     <div class="formulario__campo">
-        <label for="ponentes" class="formulario__label">Ponente</label>
+        <label for="ponentes" class="formulario__label">Nutricionista</label>
         <input
             type="text"
             class="formulario__input"
@@ -90,7 +90,7 @@
     </div>
 
     <div class="formulario__campo">
-        <label for="disponibles" class="formulario__label">Lugares Disponibles</label>
+        <label for="disponibles" class="formulario__label">Duracion de la Cita</label>
         <input
             type="number"
             min="1"

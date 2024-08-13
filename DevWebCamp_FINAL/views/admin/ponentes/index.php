@@ -3,7 +3,7 @@
 <div class="dashboard__contenedor-boton">
     <a class="dashboard__boton" href="/admin/ponentes/crear">
         <i class="fa-solid fa-circle-plus"></i>
-        Añadir Ponente
+        Añadir Nutricionista
     </a>
 </div>
 
@@ -47,7 +47,7 @@
             </tbody>
         </table>
     <?php } else { ?>
-        <p class="text-center">No Hay Ponentes Aún</p>
+        <p class="text-center">No Hay Nutricionista Aún</p>
     <?php } ?>
 </div>
 

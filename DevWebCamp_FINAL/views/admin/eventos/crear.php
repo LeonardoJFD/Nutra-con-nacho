@@ -15,6 +15,6 @@
     <form method="POST" action="/admin/eventos/crear" class="formulario">
         <?php include_once __DIR__ . '/formulario.php'; ?>
 
-        <input class="formulario__submit formulario__submit--registrar" type="submit" value="Registrar Evento">
+        <input class="formulario__submit formulario__submit--registrar" type="submit" value="Registrar Cita">
     </form>
 </div>
